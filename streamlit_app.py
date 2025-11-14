@@ -82,39 +82,6 @@ with tabs[0]:  # Prediction Tab
         features = []
         feature_cols = st.columns(3)
             
-    # Feature names mapping for user-friendly labels
-    feature_names = {
-        0: "Radius (Cell Size)",
-        1: "Texture (Surface Variation)",
-        2: "Perimeter (Cell Boundary)",
-        3: "Area (Cell Size)",
-        4: "Smoothness (Surface Texture)",
-        5: "Compactness (Cell Shape)",
-        6: "Concavity (Cell Indentation)",
-        7: "Concave Points (Irregular Points)",
-        8: "Symmetry (Cell Balance)",
-        9: "Fractal Dimension (Complexity)",
-        10: "Radius Variation",
-        11: "Texture Variation",
-        12: "Perimeter Variation",
-        13: "Area Variation",
-        14: "Smoothness Variation",
-        15: "Compactness Variation",
-        16: "Concavity Variation",
-        17: "Concave Points Variation",
-        18: "Symmetry Variation",
-        19: "Fractal Dimension Variation",
-        20: "Radius (Worst Case)",
-        21: "Texture (Worst Case)",
-        22: "Perimeter (Worst Case)",
-        23: "Area (Worst Case)",
-        24: "Smoothness (Worst Case)",
-        25: "Compactness (Worst Case)",
-        26: "Concavity (Worst Case)",
-        27: "Concave Points (Worst Case)",
-        28: "Symmetry (Worst Case)",
-        29: "Fractal Dimension (Worst Case)"
-    }
         
         for i in range(30):
             col = feature_cols[i % 3]
