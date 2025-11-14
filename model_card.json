@@ -1,0 +1,16 @@
+{
+  "model_name": "SVM",
+  "version": "1.0",
+  "created_date": "2025-11-14T18:55:37.910710",
+  "task": "Binary Classification - Breast Cancer Diagnosis",
+  "test_accuracy": 0.9883720930232558,
+  "test_f1": 0.9846153846153847,
+  "test_auc": 0.9994212962962963,
+  "test_sensitivity": 1.0,
+  "test_specificity": 0.9814814814814815,
+  "dataset": "Breast Cancer Wisconsin Diagnostic",
+  "training_samples": 498,
+  "test_samples": 86,
+  "features": 30,
+  "threshold": 0.5
+}
