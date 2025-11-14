@@ -91,7 +91,7 @@ with tabs[0]:  # Prediction Tab
                 max_val = 30 if i % 10 == 0 else (40 if i % 10 == 1 else 200)
                 
                 feature_val = st.slider(
-feature_names[i],
+f"Feature {i+1}",
                     min_value=float(min_val),
                     max_value=float(max_val),
                     value=float(max_val/2),
