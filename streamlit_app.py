@@ -228,3 +228,13 @@ with tabs[2]:  # About Tab
     - Concave Points, Symmetry, Fractal Dimension
     Each feature is computed for mean, standard error, and worst case.
     """)
+
+# Footer
+st.divider()
+st.markdown("""
+<div style='text-align: center; padding: 20px; font-size: 12px; color: #666;'>
+    <p><b>Powered by:</b> Nuraini Usman</p>
+    <p>Email: <a href='mailto:message2nuraini@gmail.com'>message2nuraini@gmail.com</a></p>
+    <p>&copy; 2025 Nuraini Usman. All rights reserved.</p>
+</div>
+""", unsafe_allow_html=True)
